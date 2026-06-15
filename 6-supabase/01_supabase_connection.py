@@ -64,8 +64,6 @@ def verify_connection(vectorstore):
 def main():
 
     print("=" * 60)
-    print(f"SUPABASE_URL = {SUPABASE_URL}")
-    print(f"DATABASE_URL = {DATABASE_URL}")
     print("Supabase PGVector Connection Test")
     print("=" * 60)
 
